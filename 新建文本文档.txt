@@ -1,0 +1,106 @@
+300 epochs completed in 3.188 hours.
+Optimizer stripped from output/yolov8-obb_20250619-022408/weights/last.pt, 156.2MB
+Optimizer stripped from output/yolov8-obb_20250619-022408/weights/best.pt, 156.2MB
+
+Validating output/yolov8-obb_20250619-022408/weights/best.pt...
+Ultralytics 8.3.155 🚀 Python-3.10.13 torch-2.4.0+cu121 CUDA:0 (Tesla V100-PCIE-32GB, 32501MiB)
+YOLOv8-obb summary (fused): 121 layers, 77,830,848 parameters, 0 gradients, 195.9 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 29/29 [00:12<00:00,  2.28it/s]
+                   all        458      28853      0.755      0.465      0.541      0.405
+                 plane         70       2531      0.887       0.68      0.773      0.627
+                  ship        108       8960      0.837      0.516      0.658      0.463
+          storage tank         55       2888      0.926      0.231      0.469      0.328
+      baseball diamond         53        214      0.784      0.458       0.55      0.406
+          tennis court         94        760      0.923      0.882      0.934      0.896
+      basketball court         35        132      0.717      0.403      0.505      0.436
+    ground track field         70        144      0.566      0.375       0.41      0.324
+                harbor        114       2090       0.76      0.704      0.755      0.445
+                bridge         75        464       0.54      0.097      0.137     0.0517
+         large vehicle        110       4387      0.791      0.791      0.815      0.638
+         small vehicle        136       5438      0.567      0.592      0.594      0.429
+            helicopter         14         73      0.905      0.288      0.389      0.256
+            roundabout         61        179      0.792       0.17      0.238      0.158
+     soccer ball field         63        153      0.629       0.34      0.373      0.315
+         swimming pool         41        440      0.696      0.441      0.515      0.296
+Speed: 0.2ms preprocess, 4.9ms inference, 0.0ms loss, 5.8ms postprocess per image
+
+300 epochs completed in 3.274 hours.
+Optimizer stripped from output/yolov8-MLKA_20250619-054437/weights/last.pt, 158.6MB
+Optimizer stripped from output/yolov8-MLKA_20250619-054437/weights/best.pt, 158.6MB
+
+Validating output/yolov8-MLKA_20250619-054437/weights/best.pt...
+Ultralytics 8.3.155 🚀 Python-3.10.13 torch-2.4.0+cu121 CUDA:0 (Tesla V100-PCIE-32GB, 32501MiB)
+YOLOv8-MLKA summary (fused): 129 layers, 79,030,464 parameters, 0 gradients, 196.8 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 29/29 [00:12<00:00,  2.35it/s]
+                   all        458      28853      0.742      0.464      0.543      0.406
+                 plane         70       2531      0.875      0.674       0.77      0.625
+                  ship        108       8960      0.823       0.52      0.657      0.463
+          storage tank         55       2888      0.864      0.238      0.461      0.319
+      baseball diamond         53        214      0.824      0.486      0.577      0.417
+          tennis court         94        760      0.929      0.893      0.938      0.903
+      basketball court         35        132      0.552      0.394      0.459      0.396
+    ground track field         70        144       0.57      0.369      0.393      0.293
+                harbor        114       2090      0.751      0.714      0.762      0.446
+                bridge         75        464      0.578       0.11      0.147      0.053
+         large vehicle        110       4387      0.775       0.79      0.809      0.639
+         small vehicle        136       5438      0.553       0.59      0.594      0.431
+            helicopter         14         73      0.954      0.283      0.451      0.304
+            roundabout         61        179      0.705       0.16      0.219      0.145
+     soccer ball field         63        153      0.644      0.319      0.395      0.348
+         swimming pool         41        440      0.729      0.421      0.519      0.313
+Speed: 0.2ms preprocess, 4.9ms inference, 0.0ms loss, 5.9ms postprocess per image
+Results saved to output/yolov8-MLKA_20250619-054437
+
+
+
+
+
+
+Validating output/yolov8-CAFM_20250619-090921/weights/best.pt...
+Ultralytics 8.3.155 🚀 Python-3.10.13 torch-2.4.0+cu121 CUDA:0 (Tesla V100-PCIE-32GB, 32501MiB)
+YOLOv8-CAFM summary (fused): 184 layers, 71,544,831 parameters, 0 gradients, 182.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 15/15 [00:16<00:00,  1.08s/it]
+                   all        458      28853      0.671      0.431      0.464      0.294
+                 plane         70       2531      0.845      0.658      0.705      0.449
+                  ship        108       8960      0.784      0.515      0.581      0.334
+          storage tank         55       2888      0.884      0.177      0.326      0.166
+      baseball diamond         53        214       0.68      0.364      0.441       0.25
+          tennis court         94        760      0.895      0.883      0.914      0.819
+      basketball court         35        132      0.556      0.341      0.357      0.274
+    ground track field         70        144      0.523      0.328      0.345      0.235
+                harbor        114       2090       0.68      0.678      0.687      0.365
+                bridge         75        464      0.377     0.0884     0.0689     0.0249
+         large vehicle        110       4387      0.753       0.78      0.787      0.571
+         small vehicle        136       5438      0.526      0.598      0.559      0.319
+            helicopter         14         73      0.642      0.247      0.305      0.126
+            roundabout         61        179      0.734      0.112       0.15      0.076
+     soccer ball field         63        153       0.56      0.316      0.325      0.244
+         swimming pool         41        440      0.629       0.38      0.401       0.16
+Speed: 0.1ms preprocess, 14.6ms inference, 0.0ms loss, 0.9ms postprocess per image
+Results saved to output/yolov8-CAFM_20250619-090921
+
+
+
+Validating output/yolov8-triplet_attention_20250619-060708/weights/best.pt...
+Ultralytics 8.3.155 🚀 Python-3.10.13 torch-2.4.0+cu121 CUDA:1 (Tesla V100-PCIE-32GB, 32501MiB)
+YOLOv8-triplet_attention summary: 209 layers, 68,547,404 parameters, 0 gradients, 179.7 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 29/29 [00:12<00:00,  2.27it/s]
+                   all        458      28853      0.742      0.469      0.552      0.415
+                 plane         70       2531      0.888      0.681      0.784      0.637
+                  ship        108       8960      0.831      0.524      0.666      0.475
+          storage tank         55       2888       0.89      0.238       0.46      0.322
+      baseball diamond         53        214      0.802      0.449      0.573      0.424
+          tennis court         94        760      0.898      0.901       0.94      0.901
+      basketball court         35        132      0.678      0.371      0.471      0.415
+    ground track field         70        144      0.548      0.396      0.402      0.317
+                harbor        114       2090      0.756      0.727      0.769      0.448
+                bridge         75        464      0.513      0.127      0.164     0.0588
+         large vehicle        110       4387      0.789      0.788      0.814      0.641
+         small vehicle        136       5438      0.511      0.607      0.589      0.422
+            helicopter         14         73          1      0.295      0.536      0.376
+            roundabout         61        179      0.741      0.173      0.241      0.164
+     soccer ball field         63        153      0.625      0.333      0.383      0.326
+         swimming pool         41        440      0.657      0.432      0.493      0.297
+Speed: 0.2ms preprocess, 5.6ms inference, 0.0ms loss, 5.7ms postprocess per image
+Results saved to output/yolov8-triplet_attention_20250619-060708
+(/data/conda_envs/laj_py310) root@9e1f0d2348da:/data/jupyter_workspace/user_lianju/yolo/ultralytics-main# 

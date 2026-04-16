@@ -1,0 +1,30 @@
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+  0%|          | 0/49 [00:00<?, ?it/s]/dfs/data/yolov8/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: adaptive_max_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at ../aten/src/ATen/Context.cpp:83.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+    299/300      21.5G     0.4688     0.3647      1.281         24        512: 100%|██████████| 49/49 [00:17<00:00,  2.86it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 10/10 [00:01<00:00,  8.50it/s]
+                   all         73        739      0.871      0.822      0.862       0.68
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+  0%|          | 0/49 [00:00<?, ?it/s]/dfs/data/yolov8/lib/python3.10/site-packages/torch/autograd/graph.py:744: UserWarning: adaptive_max_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at ../aten/src/ATen/Context.cpp:83.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+    300/300      21.7G     0.4552     0.3547      1.246         13        384: 100%|██████████| 49/49 [00:15<00:00,  3.23it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 10/10 [00:01<00:00,  8.54it/s]
+                   all         73        739       0.87      0.827      0.864      0.681
+
+300 epochs completed in 1.809 hours.
+Optimizer stripped from /dfs/data/project/yolo/change/ultralytics-main/output/yolov8-p2-obb-EMCAD_20250701-055337/weights/last.pt, 230.3MB
+Optimizer stripped from /dfs/data/project/yolo/change/ultralytics-main/output/yolov8-p2-obb-EMCAD_20250701-055337/weights/best.pt, 230.3MB
+
+Validating /dfs/data/project/yolo/change/ultralytics-main/output/yolov8-p2-obb-EMCAD_20250701-055337/weights/best.pt...
+Ultralytics 8.3.155 🚀 Python-3.10.16 torch-2.3.0+cu118 CUDA:0 (NVIDIA A30, 24060MiB)
+YOLOv8-p2-obb-EMCAD summary (fused): 172 layers, 114,756,606 parameters, 0 gradients, 510.7 GFLOPs
+/dfs/data/yolov8/lib/python3.10/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 10/10 [00:01<00:00,  6.71it/s]
+                   all         73        739      0.874      0.822      0.865      0.684
+          tennis court         55        424      0.972      0.905      0.944      0.918
+         swimming pool         28        315      0.776       0.74      0.785       0.45
+Speed: 0.2ms preprocess, 10.6ms inference, 0.0ms loss, 3.1ms postprocess per image
+Results saved to /dfs/data/project/yolo/change/ultralytics-main/output/yolov8-p2-obb-EMCAD_20250701-055337
+(/dfs/data/yolov8) root@workspace:/dfs/data/project/yolo/change/ultralyti
